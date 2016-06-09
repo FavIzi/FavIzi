@@ -1,0 +1,3 @@
+favizi:
+    resource: "@FaviziBundle/Resources/config/routing.yml"
+    prefix:   /

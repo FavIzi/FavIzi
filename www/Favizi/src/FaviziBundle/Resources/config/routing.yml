@@ -1,0 +1,22 @@
+favizi_homepage:
+    path:     /
+    defaults: { _controller: FaviziBundle:Default:index }
+
+favizi_webservice_confirm_login:
+    path:     /webservice/confirm_login/{pseudo}/{pass}
+    defaults: { _controller: FaviziBundle:Default:confirm_login }
+
+
+favizi_webservice_add_item:
+    path:     /webservice/add_item/{pseudo}/{pass}/{URL}/{nom}/{prive}/{idCategory}
+    defaults: { _controller: FaviziBundle:Default:add_item }
+
+
+favizi_webservice_delete_item:
+    path:     /webservice/delete_item/{pseudo}/{pass}/{idItem}
+    defaults: { _controller: FaviziBundle:Default:delete_item }
+
+
+favizi_webservice_lister_item:
+    path:     /webservice/lister_item/{pseudo}/{pass}
+    defaults: { _controller: FaviziBundle:Default:lister_item }
